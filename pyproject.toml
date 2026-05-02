@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "boolean-ri"
+version = "0.1.0"
+description = "Lightweight Boolean Information Retrieval engine"
+authors = ["Matias Barboza"]
+readme = "README.md"
+packages = [{ include = "boolean_ri" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+lark = "^1.1.9"
+nltk = "^3.9.4"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+pytest-cov = "^7.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
