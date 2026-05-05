@@ -1,7 +1,7 @@
-from boolean_ri.index import InvertedIndex
-from boolean_ri.normalizer import Normalizer
-from boolean_ri.text_processor import TextProcessor
-from boolean_ri.tokenizer import Tokenizer
+from boolean_ir.index import InvertedIndex
+from boolean_ir.normalizer import Normalizer
+from boolean_ir.text_processor import TextProcessor
+from boolean_ir.tokenizer import Tokenizer
 
 
 def make_index(stopwords: bool = False) -> InvertedIndex:

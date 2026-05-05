@@ -1,7 +1,7 @@
 import pytest
 
-from boolean_ri.exceptions import InvalidQueryError
-from boolean_ri.parser import BooleanParser
+from boolean_ir.exceptions import InvalidQueryError
+from boolean_ir.parser import BooleanParser
 
 
 @pytest.fixture

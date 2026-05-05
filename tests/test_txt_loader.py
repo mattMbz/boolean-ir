@@ -1,6 +1,6 @@
 import pytest
 
-from boolean_ri.loaders.txt_loader import load_txt_directory, load_txt_file
+from boolean_ir.loaders.txt_loader import load_txt_directory, load_txt_file
 
 
 def test_load_txt_file_reads_content(tmp_path) -> None:
